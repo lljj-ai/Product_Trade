@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+    <default-config> 
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/productmanage?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=true&amp;zeroDateTimeBehavior=convertToNull&amp;serverTimezone=Asia/Shanghai</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="user">root</property>  <!-- 用户名 -->
+        <property name="password">liujie13</property>  <!-- 密码 -->
+
+        <property name="acquireIncrement">3</property>  <!-- 增长数量 -->
+        <property name="initialPoolSize">10</property>    <!-- 初始化连接数 -->
+        <property name="minPoolSize">2</property>    <!--  最小连接数-->
+        <property name="maxPoolSize">50</property>   <!-- 最大连接数 -->
+    </default-config>
+</c3p0-config>
+

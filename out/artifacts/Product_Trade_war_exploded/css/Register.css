@@ -1,0 +1,136 @@
+.content{
+    height: 40px;
+    background-color:black ;
+}
+.top_left{
+    float: left;
+    margin-top: 9px;
+}
+.top_right{
+    float: right;
+    margin-top: 9px;
+}
+.hav_left{
+    float: left;
+    height:50px;
+}
+.hav_right{
+    float: right;
+    height:50px;
+}
+.content_top{
+    height: 100px;
+    background-color: white;
+}
+.content_main{
+    height:500px;
+}
+.main_left{
+    height: 525px;
+    width: 50%;
+    float:left;
+    background-color: #aaa;
+    background-image: url("");
+    background-repeat: repeat-x;
+}
+.main_right{
+    height: 525px;
+    width: 50%;
+    float:right;
+    background-color: white;
+}
+.content_foot{
+    height: 700px;
+    background-color:black;
+    color:white;
+}
+#heads{
+    color: white;
+}
+#headss{
+    color: white;
+    align-content: center;
+}
+#huadititle{
+color:#191970;
+text-align:left;
+font-style: italic;
+font-size: xx-large;
+text-shadow:0px 0px 8px #AFEEEE, 0px 0px 42px #AFEEEE, 0px 0px 72px #AFEEEE,0px 0px 150px #AFEEEE;
+}
+.d{
+    align-items:right;
+}
+#bt_submit{
+    width:150px;
+    height:35px;
+    color:white;
+    background-color:#8B0000 ;
+}
+h1{
+    color:#40E0D0;
+}
+td{
+height:50px;
+vertical-align:bottom;
+}
+.main_form{
+    align-content: center;
+}
+.im{
+    height: 525px;
+    width: 100%;
+}
+.foot_left1{
+    float:left;
+    width:15%;
+    font-size:11pt;
+}
+.foot_left2{
+    float:left;
+    width:20%;
+}
+.foot_left3{
+    float:left;
+    width:10%;
+}
+.foot_left4{
+    float:left;
+    width:15%;
+}
+.foot_right{
+    float:right;
+    width:30%
+}
+#fiim{
+    background-color:orange;
+    font-size: 13pt;
+    color:white;
+}
+#ph{
+    color:#1E90FF;
+    font-size: 22pt;
+}
+.ss{
+    color:#FF0000;
+    font-size: 13pt;
+}
+.navigation{
+    height:40px;
+    width:800px;
+    background-color:#DDDDDD;
+    display: none;
+    font-size: 13pt;
+    color: black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display:inline;
+}
+.main_form span{
+    font-size: 8pt;
+}
